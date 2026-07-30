@@ -5,8 +5,10 @@ from stock_details import render_stock_details
 from index_details import render_index_details
 from about import render_about_page
 import os
+from pathlib import Path
 
-app.add_static_files('/assets', 'assets')
+ASSETS_DIR = Path(__file__).parent / 'assets'
+app.add_static_files('/assets', str(ASSETS_DIR))
 
 @contextmanager
 def layout(page_title):
