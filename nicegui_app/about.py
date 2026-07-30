@@ -29,4 +29,4 @@ def render_about_page():
         with ui.row().classes('items-center gap-2 justify-center w-full'):
             ui.icon('code').classes('text-3xl text-gray-400')
             ui.label("Designed & Developed by:").classes('text-xl text-gray-400')
-            ui.label("Saikiran").classes('text-2xl font-extrabold text-white tracking-wide ml-1')
+            ui.label("Saikiran Jogu").classes('text-2xl font-extrabold text-white tracking-wide ml-1')
