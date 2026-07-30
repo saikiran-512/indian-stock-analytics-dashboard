@@ -83,9 +83,9 @@ ui.add_head_html('''
 
 if __name__ in {"__main__", "__mp_main__"}:
     # Run the NiceGUI server on port 8080
-ui.run(
-    title="Indian Stock Analytics Dashboard",
-    dark=True,
-    port=8080,
-    favicon='assets/logo.jpg'
-)
+    ui.run(
+        title="Indian Stock Analytics Dashboard",
+        dark=True,
+        port=8080,
+        favicon='assets/logo.jpg'
+    )
